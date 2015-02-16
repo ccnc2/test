@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="app/assets/stylesheets/to_do_items.css" />
+  </head>
+  <body>
+    <div id="page">
+      <h1 id="header">List</h1>
+      <h2>To Do List</h2>
+      <ul>
+        <li id="one" class="hot">Homework</li>
+        <li id="two" class="hot">Groceries</li>
+        <li id="three" class="hot">Make an app</li>
+      </ul>
+      <div id="newItemButton"><button href="#" id="showForm">Add more</button></div>
+      <form id="newItemForm">
+        <input type="text" id="itemDescription" placeholder="Add description" />
+        <input type="submit" id="add" value="add" />
+      </form>
+    </div>
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="app/assets/javascripts/to_do_items.js"></script>
+  </body>
+</html>
